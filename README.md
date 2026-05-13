@@ -1,8 +1,8 @@
-# 🤖 AI Chatbot SaaS
+#  AI Chatbot SaaS
 
 A full-stack AI Chatbot SaaS application built with Angular, Express, and MySQL — similar to ChatGPT with subscription-based access to advanced AI models.
 
-## 🌟 Features
+##  Features
 
 - **User Authentication** — Register/Login with JWT tokens
 - **AI Chat Interface** — ChatGPT-like UI with conversation history
@@ -11,7 +11,7 @@ A full-stack AI Chatbot SaaS application built with Angular, Express, and MySQL 
 - **Dashboard** — View token usage and plan details
 - **Responsive Design** — Built with Angular Material
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - Angular 21
@@ -29,7 +29,7 @@ A full-stack AI Chatbot SaaS application built with Angular, Express, and MySQL 
 - MySQL (Local)
  
 
-## 📁 Project Structure
+##  Project Structure
 ai-chatbot-saas/
 ├── frontend/                    # Angular 21 App
 │   ├── src/
@@ -54,14 +54,14 @@ ai-chatbot-saas/
 │
 └── README.md
 
-## 🗄️ Database Schema
+##  Database Schema
 Users          → id, name, email, password, plan
 Conversations  → id, title, userId
 Messages       → id, role, content, tokensUsed, conversationId
 Subscriptions  → id, plan, startDate, endDate, paymentId, userId
 TokenUsages    → id, tokensUsed, date, userId
 
-## 🔌 API Endpoints
+##  API Endpoints
 AUTH
 POST   /api/auth/register     → Register new user
 POST   /api/auth/login        → Login user
@@ -76,7 +76,7 @@ SUBSCRIPTION
 GET    /api/subscription/plans   → Get all plans
 POST   /api/subscription/upgrade → Upgrade to paid plan
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -137,7 +137,7 @@ CREATE DATABASE ai_chatbot_db;
 Frontend → http://localhost:4200
 Backend  → http://localhost:5000
 
-## 💡 How It Works
+##  How It Works
 User (Browser)
 ↓
 Angular Frontend (port 4200)
@@ -148,7 +148,7 @@ MySQL Database
 ↓
 Response back to user
 
-## 🔐 Security Features
+##  Security Features
 
 - Passwords encrypted with bcrypt
 - JWT token authentication
@@ -156,7 +156,7 @@ Response back to user
 - SSL database connection (production)
 - Environment variables for secrets
 
-## 💰 Subscription Plans
+##  Subscription Plans
 
 | Feature | Free Plan | Pro Plan |
 |---------|-----------|----------|
@@ -164,7 +164,7 @@ Response back to user
 | Daily Tokens | 4,000 | Unlimited |
 | Price | ₹0/month | ₹499/month |
 
-## 🎯 Demo Flow
+##  Demo Flow
 
 1. Register a new account
 2. Login with credentials
@@ -174,11 +174,11 @@ Response back to user
 6. Upgrade plan on Plans page
 7. Logout
 
-## 👨‍💻 Developer
+##  Developer
 
 **Ajay Latare**
 - GitHub: [@ajaylatare](https://github.com/ajaylatare)
 
-## 📄 License
+##  License
 
 MIT License
