@@ -8,7 +8,7 @@
 
 
       <div class="sidebar-header">
-  <h2>🤖 AI Chatbot</h2>
+  <h2> AI Chatbot</h2>
   <button mat-raised-button color="primary" (click)="newChat()">
     + New Chat
   </button>
@@ -44,7 +44,7 @@
 
     @if (!currentConversationId) {
       <div class="empty-state">
-        <h2>Welcome to AI Chatbot! 🤖</h2>
+        <h2>Welcome to AI Chatbot</h2>
         <p>Click "New Chat" to start a conversation</p>
       </div>
     }
@@ -64,7 +64,7 @@
         @if (isLoading) {
           <div class="message ai-message">
             <div class="message-bubble">
-              🤖 Thinking...
+               Thinking...
             </div>
           </div>
         }
