@@ -27,7 +27,7 @@ A full-stack AI Chatbot SaaS application built with Angular, Express, and MySQL 
 
 ### Database
 - MySQL (Local)
-- PostgreSQL/Neon (Production)
+ 
 
 ## 📁 Project Structure
 ai-chatbot-saas/
@@ -144,7 +144,7 @@ Angular Frontend (port 4200)
 ↓ HTTP Request + JWT Token
 Express Backend (port 5000)
 ↓
-MySQL Database + Gemini AI API
+MySQL Database  
 ↓
 Response back to user
 
